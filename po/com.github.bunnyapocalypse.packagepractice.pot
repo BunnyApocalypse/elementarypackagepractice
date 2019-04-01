@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bunnyapocalypse.packagepractice package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.bunnyapocalypse.packagepractice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 18:56-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Application.vala:31
+#: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:6
+msgid "Clicky Clicky"
+msgstr ""
+
+#: src/Application.vala:34
+msgid "No more clicky :("
+msgstr ""
+
+#: src/Application.vala:40
+msgid "What Could the Button Do?"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.desktop.in:3
+msgid "Clicky App"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.desktop.in:4
+msgid "An app with a mysterious button, what does it do?"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.desktop.in:7
+msgid "application-default-icon"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.desktop.in:10
+msgid "Clicky;Button;Packaging;"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:7
+msgid "An application with a mysterious button"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:9
+msgid "Click the button if you dare, it is pretty and in a window"
+msgstr ""
