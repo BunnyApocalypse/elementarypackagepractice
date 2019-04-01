@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Clicky App
+GenericName=An app with a mysterious button, what does it do?
+Categories=Education;
+Exec=com.github.bunnyapocalypse.packagepractice
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=Clicky;Button;Packaging;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Chris King <bunnyapocalypse@protonmail.com> -->
+<component type="desktop">
+  <id>com.github.bunnyapocalypse.packagepractice</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Clicky Clicky</name>
+  <summary>An application with a mysterious button</summary>
+  <description>
+    <p>Click the button if you dare, it is pretty and in a window</p>
+  </description>
+</component>
