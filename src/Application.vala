@@ -28,17 +28,29 @@ public class MyApp : Gtk.Application {
     }
 
     protected override void activate () {
-        var cool_button = new Gtk.Button.with_label (_("Clicky Clicky"));
-        cool_button.margin = 5;
-        cool_button.clicked.connect (() => {
-            cool_button.label = _("No more clicky :(");
-            cool_button.sensitive = false;
-        });
+        //Initialize grid
+        var grid = new Gtk.Grid ();
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 7;
+        
+        //Add stuff to grid
+        var button = new Gtk.Button.with_label (_("Clicky Clicky"));
+        var label = new Gtk.Label (null);
+        grid.add (button);
+        grid.add (label);
+        
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 500;
         main_window.default_width = 300;
-        main_window.title = _("What Could the Button Do?");
-        main_window.add (cool_button);
+        main_window.title = _("Griddy");
+        main_window.add (grid);
+        
+        //Make the button do something
+        button.clicked.connect (() => {
+            label.label = _("You clicked me!");
+            button.sensitive = false;
+        });
+        
         main_window.show_all ();
     }
 
@@ -46,4 +58,5 @@ public class MyApp : Gtk.Application {
         var app = new MyApp ();
         return app.run (args);
     }
+
 }

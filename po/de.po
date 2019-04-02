@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bunnyapocalypse.packagepractice\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 18:56-0500\n"
+"POT-Creation-Date: 2019-04-02 18:58-0500\n"
 "PO-Revision-Date: 2019-04-01 18:56-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Application.vala:31
+#: src/Application.vala:37
 #: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:6
 msgid "Clicky Clicky"
 msgstr ""
 
-#: src/Application.vala:34
-msgid "No more clicky :("
+#: src/Application.vala:45
+msgid "Griddy"
 msgstr ""
 
-#: src/Application.vala:40
-msgid "What Could the Button Do?"
+#: src/Application.vala:50
+msgid "You clicked me!"
 msgstr ""
 
 #: data/com.github.bunnyapocalypse.packagepractice.desktop.in:3
