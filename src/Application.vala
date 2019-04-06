@@ -28,27 +28,43 @@ public class MyApp : Gtk.Application {
     }
 
     protected override void activate () {
-        //Initialize grid
-        var grid = new Gtk.Grid ();
-        grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.row_spacing = 7;
         
-        //Add stuff to grid
-        var button = new Gtk.Button.with_label (_("Clicky Clicky"));
-        var label = new Gtk.Label (null);
-        grid.add (button);
-        grid.add (label);
+        var layout = new Gtk.Grid ();
+        layout.column_spacing = 6;
+        layout.row_spacing = 6;
+        
+        var hello_button = new Gtk.Button.with_label (_("Click me too!"));
+        var hello_label = new Gtk.Label (null);
+        
+        var rotate_button = new Gtk.Button.with_label (_("Rotate"));
+        var rotate_label = new Gtk.Label (_("Horizonal"));
+        
+        //Add first row of widgets
+        layout.attach (hello_button, 0, 0, 1, 1);
+        layout.attach_next_to (hello_label, hello_button, Gtk.PositionType.RIGHT, 1, 1);
+        
+        //Add second row of widgets
+        layout.attach (rotate_button, 0, 1, 1, 1);
+        layout.attach_next_to (rotate_label, rotate_button, Gtk.PositionType.RIGHT, 1, 1);
         
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 500;
         main_window.default_width = 300;
         main_window.title = _("Griddy");
-        main_window.add (grid);
         
-        //Make the button do something
-        button.clicked.connect (() => {
-            label.label = _("You clicked me!");
-            button.sensitive = false;
+        //Add layout grid
+        main_window.add (layout);
+        
+        //Make buttons do things
+        hello_button.clicked.connect (() => {
+            hello_label.label = _("Hello World!");
+            hello_button.sensitive = false;
+        });
+        
+        rotate_button.clicked.connect (() => {
+            rotate_label.angle = 90;
+            rotate_label.label = _("vertical");
+            rotate_button.sensitive = false;
         });
         
         main_window.show_all ();

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bunnyapocalypse.packagepractice\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-02 18:58-0500\n"
+"POT-Creation-Date: 2019-04-06 09:52-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Application.vala:37
-#: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:6
-msgid "Clicky Clicky"
+#: src/Application.vala:36
+msgid "Click me too!"
 msgstr ""
 
-#: src/Application.vala:45
+#: src/Application.vala:39
+msgid "Rotate"
+msgstr ""
+
+#: src/Application.vala:40
+msgid "Horizonal"
+msgstr ""
+
+#: src/Application.vala:53
 msgid "Griddy"
 msgstr ""
 
-#: src/Application.vala:50
-msgid "You clicked me!"
+#: src/Application.vala:60
+msgid "Hello World!"
+msgstr ""
+
+#: src/Application.vala:66
+msgid "vertical"
 msgstr ""
 
 #: data/com.github.bunnyapocalypse.packagepractice.desktop.in:3
@@ -44,6 +55,10 @@ msgstr ""
 
 #: data/com.github.bunnyapocalypse.packagepractice.desktop.in:10
 msgid "Clicky;Button;Packaging;"
+msgstr ""
+
+#: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:6
+msgid "Clicky Clicky"
 msgstr ""
 
 #: data/com.github.bunnyapocalypse.packagepractice.appdata.xml.in:7
